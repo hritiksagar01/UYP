@@ -1,0 +1,15 @@
+.support-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e3f2fd;
+    color: #1976d2;
+    font-family: 'Verdana', sans-serif;
+  }
+  
+  .support-container h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+

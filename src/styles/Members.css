@@ -1,0 +1,139 @@
+/* Container for the photo carousel and text section */
+.photos-container {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Vertically center content */
+  padding: 50px;
+  background-color: #faf7f2;
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  height: 100vh; /* Full screen height */
+}
+
+/* Flex container for content - left text and right carousel */
+.content-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%; /* Ensure content section takes full height */
+}
+
+/* Section for title and subheading (aligned to the left) */
+.info-section {
+  flex: 1; /* Takes 50% of the available space */
+  margin-right: 40px; /* Add spacing between text and carousel */
+  text-align: left;
+}
+
+.info-section h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #333;
+}
+
+.info-section p {
+  font-size: 20px;
+  color: #666;
+}
+
+/* Forward and Previous button section aligned under text */
+.carousel-arrow-container {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px; /* Space between the buttons */
+  margin-top: 20px; /* Space below the text */
+}
+
+.carousel-arrow {
+  background-color: transparent;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-arrow:hover {
+  background-color: #f1f1f1;
+}
+
+/* Carousel container (aligned to the right) */
+.carousel-container {
+  flex: 1; /* Takes 50% of the available space */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%; /* Ensure the carousel takes full height */
+  position: relative; /* Needed for proper arrow positioning */
+}
+
+/* Style for the photo gallery */
+.photo-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Add some spacing between the images */
+  transition: transform 0.5s ease; /* Smooth transition effect */
+}
+
+/* Style for the photo card */
+.photo-card {
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+
+.photo-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.photo-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Styling for the image inside the card */
+.card-image {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.card-image:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive: Adjust layout for smaller screens */
+@media (max-width: 768px) {
+  .content-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info-section {
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .carousel-arrow-container {
+    justify-content: center; /* Center buttons in mobile view */
+  }
+
+  .carousel-container {
+    width: 100%;
+  }
+
+  .photo-card {
+    width: 100%;
+    margin: 20px 0;
+  }
+}

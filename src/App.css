@@ -1,0 +1,28 @@
+/* App.css */
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #282c34;
+  padding: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-content {
+  padding: 20px;
+}

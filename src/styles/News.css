@@ -1,0 +1,57 @@
+body {
+  background-color: #1c1c1c;
+}
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #1c1c1c; /* Match the body background */
+}
+
+.news {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px 0;
+  width: 85%;  /* Slightly increase the card width */
+  max-width: 700px; /* Adjust for broader cards */
+  text-align: center;
+  transition: transform 0.2s;
+  min-height: 500px; /* Fix a minimum height so the card maintains height consistency */
+}
+
+.news:hover {
+  transform: scale(1.05);
+}
+
+.news img {
+  width: 100%;
+  height: 250px; /* Set a fixed height for the image to make it smaller */
+  object-fit: cover; /* Ensure the image covers the area without stretching */
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.news h2 {
+  margin: 10px 0;
+  font-size: 1.5em;
+  margin-bottom:10px;
+}
+
+.news p {
+  color: black;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+/* Optionally, you can add more text styling for better readability */
+
+.news .text-content {
+  text-align: left; /* Align longer text content to the left for better readability */
+  font-size: 1em;
+  line-height: 2; /* Improve text readability */
+}
