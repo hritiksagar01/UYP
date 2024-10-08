@@ -21,12 +21,15 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  {
-    "extends": ["react-app", "eslint:recommended"],
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "eslint:recommended"
+    ],
     "rules": {
-      "no-unused-vars": "warn",  
-      "jsx-a11y/anchor-is-valid": "off", 
-      "jsx-a11y/img-redundant-alt": "warn" 
+      "no-unused-vars": "warn",
+      "jsx-a11y/anchor-is-valid": "off",
+      "jsx-a11y/img-redundant-alt": "warn"
     }
   },
   "browserslist": {
@@ -40,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint-plugin-jsx-a11y": "^6.10.0"
   }
 }
