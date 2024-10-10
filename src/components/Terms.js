@@ -34,7 +34,7 @@ function Terms() {
           You acknowledge that unauthorized use of the Website or the Services may lead to action against you as per these Terms or applicable laws.
         </li>
         <li>
-          You agree to pay us the charges associated with availing the Services.
+          You agree to pay us the charges associated with availing the Services.The charges for the Event is Rs 1500/-
         </li>
         <li>
           You agree not to use the website and/or Services for any purpose that is unlawful, illegal or forbidden by these Terms, or Indian or local laws that might apply to you.
