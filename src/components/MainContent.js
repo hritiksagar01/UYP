@@ -93,8 +93,8 @@ function MainContent() {
             </span>
           </p>
           <button className="cta-button" onClick={handleRegisterClick}>
-            Register Now
-            Rs.150/-
+            Register Now at only 
+            Rs.1500/-
           </button>
         </div>
       </div>
