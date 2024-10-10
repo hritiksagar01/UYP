@@ -94,6 +94,7 @@ function MainContent() {
           </p>
           <button className="cta-button" onClick={handleRegisterClick}>
             Register Now
+            Rs.150/-
           </button>
         </div>
       </div>
