@@ -2,6 +2,14 @@
 .App {
   text-align: center;
 }
+.about {
+  color: white;
+}
+
+.about p {
+  color: white;
+}
+
 
 .navbar {
   background-color: #282c34;

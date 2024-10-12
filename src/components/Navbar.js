@@ -16,7 +16,7 @@ function Navbar() {
         <div className="navbar-left">
           {/* Ensure the logo redirects to the main content page */}
           <Link to="/"> 
-            <img src={logo} alt="logo" className="logo" />
+            <img src={logo} alt="logo" className="logo" sizes='1000px'/>
           </Link>
         </div>
         <ul className="navbar-menu">

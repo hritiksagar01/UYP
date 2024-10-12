@@ -14,10 +14,10 @@ import Videos from './components/Videos';
 import News from './components/News';
 import Support from './components/Support';
 import Terms from './components/Terms';
-import Privacy from './components/Privacy';
 import About from './components/About';
 import Contact from './components/Contact';
 import Refund from './components/Refund';
+import Disclaimer from './components/Disclaimer';
 
 function Layout({ children }) {
   const location = useLocation();
@@ -82,11 +82,12 @@ function App() {
           <Route path="/news" element={<News />} />
 
           {/* Support Page */}
+          <Route path='/Disclaimer'element={<Disclaimer/>} />
           <Route path="/support" element={<Support />} />
           <Route path="/terms" element={<Terms />} />
-        <Route path="/Refund" element={<Refund />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+          <Route path="/Refund" element={<Refund />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Layout>
     </Router>

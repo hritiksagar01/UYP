@@ -20,6 +20,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
+      <Link to="/Disclamer" className="footer-link">Disclaimer</Link>
         <Link to="/Privacy" className="footer-link">Privacy Notice</Link>
         <Link to="/Refund" className="footer-link">Refund</Link>
         <Link to="/Terms" className="footer-link">Terms and Conditions</Link>
